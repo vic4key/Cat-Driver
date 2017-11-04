@@ -1,0 +1,8 @@
+TARGETNAME=CatDriver
+TARGETTYPE=DRIVER
+
+SOURCES=stdafx.cpp \
+  MGeneral.cpp \
+  MProcess.cpp \
+  MGetSysRoutines.cpp \
+	CatDriver.cpp

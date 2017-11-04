@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CatDriver", "CatDriver\CatDriver\CatDriver.vcproj", "{83A1AE88-4A58-470E-932A-5C9AB0D7C002}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CatLoader", "CatLoader\CatLoader.vcproj", "{8B6B9FE3-F949-48F5-BF32-27838A350ECE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CatCaller", "CatCaller\CatCaller.vcproj", "{7F15DEFC-3D8F-423E-9FAE-0517053B6D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A1AE88-4A58-470E-932A-5C9AB0D7C002}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83A1AE88-4A58-470E-932A-5C9AB0D7C002}.Debug|Win32.Build.0 = Debug|Win32
+		{83A1AE88-4A58-470E-932A-5C9AB0D7C002}.Release|Win32.ActiveCfg = Release|Win32
+		{83A1AE88-4A58-470E-932A-5C9AB0D7C002}.Release|Win32.Build.0 = Release|Win32
+		{8B6B9FE3-F949-48F5-BF32-27838A350ECE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B6B9FE3-F949-48F5-BF32-27838A350ECE}.Debug|Win32.Build.0 = Debug|Win32
+		{8B6B9FE3-F949-48F5-BF32-27838A350ECE}.Release|Win32.ActiveCfg = Release|Win32
+		{8B6B9FE3-F949-48F5-BF32-27838A350ECE}.Release|Win32.Build.0 = Release|Win32
+		{7F15DEFC-3D8F-423E-9FAE-0517053B6D8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F15DEFC-3D8F-423E-9FAE-0517053B6D8B}.Debug|Win32.Build.0 = Debug|Win32
+		{7F15DEFC-3D8F-423E-9FAE-0517053B6D8B}.Release|Win32.ActiveCfg = Release|Win32
+		{7F15DEFC-3D8F-423E-9FAE-0517053B6D8B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="CatDriver"
+	ProjectGUID="{83A1AE88-4A58-470E-932A-5C9AB0D7C002}"
+	RootNamespace="CatDriver"
+	Keyword="MakeFileProj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ProjectDir)\objchk_win7_x86"
+			IntermediateDirectory="$(ProjectDir)\objchk_win7_x86"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7&#x0D;&#x0A;cd /d $(ProjectDir)&#x0D;&#x0A;build"
+				ReBuildCommandLine="rmdir /s /q $(ProjectDir)\objchk_win7_x86&#x0D;&#x0A;call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7&#x0D;&#x0A;cd /d $(ProjectDir)&#x0D;&#x0A;build"
+				CleanCommandLine="rmdir /s /q $(ProjectDir)\objchk_win7_x86"
+				Output="$(ProjectDir)\objchk_win7_x86\i386\CatDriver.sys"
+				PreprocessorDefinitions="WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1"
+				IncludeSearchPath="$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ProjectDir)\objfre_win7_x86"
+			IntermediateDirectory="$(ProjectDir)\objfre_win7_x86"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7&#x0D;&#x0A;cd /d $(ProjectDir)&#x0D;&#x0A;build"
+				ReBuildCommandLine="rmdir /s /q $(ProjectDir)\objfre_win7_x86&#x0D;&#x0A;call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7&#x0D;&#x0A;cd /d $(ProjectDir)&#x0D;&#x0A;build"
+				CleanCommandLine="rmdir /s /q $(ProjectDir)\objfre_win7_x86"
+				Output="$(ProjectDir)\objfre_win7_x86\i386\CatDriver.sys"
+				PreprocessorDefinitions="WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0"
+				IncludeSearchPath="$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			>
+			<File
+				RelativePath=".\CatDriver.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MGeneral.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MGetSysRoutines.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MProcess.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\stdafx.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			>
+		</Filter>
+		<Filter
+			Name="Header files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			>
+			<File
+				RelativePath="..\..\General\Headers\MCtrlCodes.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MGeneral.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MGetSysRoutines.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\General\Headers\MGlobal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MProcess.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MTypes.h"
+				>
+			</File>
+			<File
+				RelativePath=".\stdafx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\VisualDDKHelpers.h"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath=".\$(ProjectDir)\sources"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
